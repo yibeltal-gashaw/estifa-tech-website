@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstifaTech | Innovating the Future</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Loading...</span>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">EstifaTech</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <div class="theme-switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <label for="theme-toggle" class="theme-switch-label">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-slide-in">Welcome to <span>EstifaTech</span></h1>
+                <p class="animate-fade-in">Innovating the Future with Cutting-Edge Technology</p>
+                <div class="cta-buttons animate-bounce" style="margin-top: 100px;">
+                    <a href="#projects" class="btn primary">Explore Projects</a>
+                    <a href="#contact" class="btn primary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://res.cloudinary.com/dyzeb4vxu/image/upload/v1732190319/samples/logo.png" alt="EstifaTech Logo" class="profile-photo">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About EstifaTech</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At <strong>EstifaTech</strong>, we are committed to delivering innovative technology solutions that drive business success. Our team of experts specializes in:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Cutting-edge software development</li>
+                        <li><i class="fas fa-check-circle"></i> High-quality mobile app creation</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced cloud-based services</li>
+                    </ul>
+                    <p>Our mission is to empower businesses by providing solutions that are scalable, efficient, and tailored to your unique needs. With a focus on quality and innovation, we aim to exceed your expectations at every step.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://res.cloudinary.com/dyzeb4vxu/image/upload/v1734164149/128_gond6v.jpg" alt="About EstifaTech">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <h3><i class="fas fa-code"></i> Software Development</h3>
+                    <p>Building scalable and efficient software solutions tailored to your needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile App Development</h3>
+                    <p>Delivering high-quality cross-platform mobile applications.</p>
+                </div>
+                <div class="service-item">
+                    <h3><i class="fas fa-cloud"></i> Cloud Solutions</h3>
+                    <p>Empowering businesses with cloud-based services and infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Our Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card animate-fade-in">
+                <img src="./images/e-commerce.png" alt="E-Commerce Platform">
+                <h3>E-Commerce Platform</h3>
+                <p>A complete solution for online businesses using the MERN stack.</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card animate-fade-in">
+                <img src="./images/mobile-fitness.jpg" alt="Fitness App">
+                <h3>Fitness Tracker App</h3>
+                <p>Helping users track their fitness goals on the go with Flutter.</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card animate-fade-in">
+                <img src="./images/cloud-mng-dashboard.png" alt="Cloud Management">
+                <h3>Cloud Management Dashboard</h3>
+                <p>Streamline cloud resource management using AWS.</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <div class="container"><div class="container"></div>
+        
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-scroll-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"EstifaTech transformed our business processes with their innovative solutions. Their professionalism and expertise are unmatched."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://res.cloudinary.com/dyzeb4vxu/image/upload/v1732190312/samples/imagecon-group.jpg" alt="Client 1" class="author-image">
+                        <div class="author-info">
+                            <h4>Jane Doe</h4>
+                            <p>CEO, ABC Corporation</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Working with EstifaTech was a game-changer. Their team delivered beyond our expectations, and the results speak for themselves."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://res.cloudinary.com/dyzeb4vxu/image/upload/v1732190312/samples/ecommerce/car-interior-design.jpg" alt="Client 2" class="author-image">
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <p>CTO, XYZ Tech</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Their attention to detail and commitment to quality are remarkable. We highly recommend EstifaTech to anyone seeking top-notch technology solutions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://res.cloudinary.com/dyzeb4vxu/image/upload/v1732190312/samples/people/bicycle.jpg" alt="Client 3" class="author-image">
+                        <div class="author-info">
+                            <h4>Emily Johnson</h4>
+                            <p>Marketing Manager, Bright Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <form class="contact-form">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn primary">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EstifaTech</h3>
+                <p>Innovating the Future with Technology</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> info@estifatech.com</p>
+                <p><i class="fas fa-phone"></i> +251 900 000 000</p>
+                <p><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EstifaTech. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
